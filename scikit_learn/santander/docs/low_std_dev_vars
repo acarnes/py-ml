@@ -1,0 +1,37 @@
+Variables with Zero deviation
+FEATURE --------------------- STD DEV
+ind_var2_0                       0
+ind_var2                         0
+ind_var27_0                      0
+ind_var28_0                      0
+ind_var28                        0
+ind_var27                        0
+ind_var41                        0
+ind_var46_0                      0
+ind_var46                        0
+num_var27_0                      0
+num_var28_0                      0
+num_var28                        0
+num_var27                        0
+num_var41                        0
+num_var46_0                      0
+num_var46                        0
+saldo_var28                      0
+saldo_var27                      0
+saldo_var41                      0
+saldo_var46                      0
+imp_amort_var18_hace3            0
+imp_amort_var34_hace3            0
+imp_reemb_var13_hace3            0
+imp_reemb_var33_hace3            0
+imp_trasp_var17_out_hace3        0
+imp_trasp_var33_out_hace3        0
+num_var2_0_ult1                  0
+num_var2_ult1                    0
+num_reemb_var13_hace3            0
+num_reemb_var33_hace3            0
+num_trasp_var17_out_hace3        0
+num_trasp_var33_out_hace3        0
+saldo_var2_ult1                  0
+saldo_medio_var13_medio_hace3    0
+dtype: float64

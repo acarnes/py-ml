@@ -1,0 +1,229 @@
+PANDAS + SEABORN
+
+CHECK OUT pandas.cut to bin data
+
+CHECK OUT root_numpy, root_pandas, and hep_ml
+
+`jupyter notebook` to open up notebooks from mlhep
+
+http://seaborn.pydata.org/tutorial/distributions.html
+http://seaborn.pydata.org/tutorial/categorical.html#categorical-tutorial
+
+%save my_useful_session start_line-end_line otheruseful_line
+
+
+########################  IMPORTS ################################
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+import seaborn as sns
+
+import root_numpy                     # Need to get this from somewhere
+
+
+########################  DF BASICS ##############################
+
+df = pd.read_csv('file.csv')          # load csv
+df = df[df.column > cut]              # apply cut
+s = df["column"]                      # get column as series
+s = df.column                    
+
+df.columns                            # get a list of the column names
+df_reduced = df[ ["col1", "col2"] ]   # get a subset of columns
+dfr = dfr.loc[:20,:]                  # get first twenty rows
+
+df.ix[:, df.columns != 'b']               # apply cuts
+df.ix/loc[(df.var1==1) & (df.var2>3), :]  # apply multiple cuts
+
+df.sort_values(by="BBB")              # sort the dataframe
+
+df.sample(frac=1)                     # get randomized subsample
+from sklearn.utils import shuffle
+df = shuffle(df)
+
+df.assign(sepal_ratio = some_new_col)  # add new column
+df["new_col"] = some_new_col           # add new column, throws warning
+
+pd.core.strings.str_strip(dfb.columns) # strip whitespace from a list
+
+df.rename(columns={'total_tree_time' : 'total_time'}, inplace=True) # rename some columns
+
+
+df.apply(numpy.sqrt)        # returns DataFrame
+df.apply(numpy.sum, axis=0) # returns series with columns reduced to sum
+df.apply(numpy.sum, axis=1) # returns series with rows reduced to sum
+
+dfr.div(dfr.sum(axis=0), axis=1) # divide each column (axis=1) by its sum along the rows (axis=0) 
+
+# An example from the histogramming code
+281     # Here we form p_x_given_y by dividing n_x_y by n_y
+282     normalized = pd.DataFrame(hist)
+283     normalized = normalized.div(normalized.sum(axis=1), axis=0)   # divide each row (axis=0) by its sum each row across the columns (axis=1)
+      
+      
+########################  BINNING DATA ##########################        
+        
+bins = [0, 25, 50, 75, 100]
+df['bin'] = pd.cut(df['x0'], bins, labels=group_names)      
+x0_histo_df = df[['x0','bin']].groupby('bin').size()      
+
+2d-histogram
+
+df['binx0'] = pdf.cut(df['x0'], binsx0)
+df['binx1'] = pdf.cut(df['x1'], binsx1)
+
+dfnew = df[['y', 'binx0', 'binx1']].groupby(['binx0', 'binx1']).sum()
+
+
+########################  SOME PLOTTING ##########################
+
+# Y vs X plot
+dfpr.plot(x='num_cpus', y='total_time')
+
+ax = s.plot.hist(bins=100, kwds={'weights': your weights array})                # 1d histogram with weights
+ax = s.plot.hist(bins=100, weights=df.weights)                                  # 1d histogram with weights
+ax.set_yscale('log')
+
+sns.distplot(df.col, hist_kws={'weights':df.wt.values})                         # 1d hist with weights + kde, kde doesn't use weights unfortunately
+
+s.plot.kde()                                                                    # 1d kernel density estimator
+sns.kdeplot(df.x, bw=0.15)                                                      # 1d kde with seaborn
+sns.kdeplot(df.y, df.x, shade=true, n_levels=30, cmap='Reds'/'Blues'/'Greens')  # 2d kernel density estimator
+
+                                                                                 
+g = sns.FacetGrid(df, row="sex", col="smoker")                                  # grid of total_bill vs tip for all
+g.map(plt.scatter, "total_bill", "tip")                                         # combinations of binary vars sex, smoker
+g.map(sns.kdeplot, "total_bill", "tip")
+
+sns.jointplot(x="x", y="y", data=df, kind="hex" color="r")                      # 2d scatter + both 1d histograms
+sns.jointplot(x="x", y="y", data=df, kind="kde" color="r")                      # 2d kde + both 1d histograms
+
+df.boxplot()                                                                    # boxplot for all df vars
+df.hist()                                                                       # hists for all df vars
+data.groupby('class').hist()                                                    # hists for different classes of 'class'
+data.groupby('class').dfcolumn.hist(alpha=0.4)                                  # hists for all classes of 'class' for var dfcolumn on same plot
+
+
+# FacetGrid, all posible pairs of classes
+g = sns.FacetGrid(tips_data, row="sex", col="smoker")
+g.map(plt.hist, "total_bill")
+
+# All feature pairs scatter and 1D histograms along diagonal 
+sns.pairplot(df);
+
+# All feature pairs with kde applied
+g = sns.PairGrid(df)
+g.map_diag(sns.kdeplot)
+g.map_offdiag(sns.kdeplot, cmap="Blues_d", n_levels=6);
+
+# Line plot with uncertainty band
+plt.figure()
+plt.plot(ma.index, ma, 'b')
+plt.fill_between(mstd.index, ma-2*mstd, ma+2*mstd, color='b', alpha=0.2)
+
+########################  PLOT X,Y,Z #######################################
+
+# Continuous X,Y
+x = np.arange(-5, 5, 0.1)
+y = np.arange(-5, 5, 0.1)
+xx, yy = meshgrid(x, y, sparse=True)                                            # x for every y and y for every x
+z = np.sin(xx**2 + yy**2) / (xx**2 + yy**2)
+h = plt.contourf(x,y,z)                                                         # plot meshgrid
+
+plt.scatter(X, Y, c=Z)
+
+# Discrete X,Y Date and Location
+pt = pd.pivot_table(df, index='Date', columns='Location', values='Text', aggfunc=np.sum)
+ax = sns.heatmap(pt)
+
+pt = df.pivot("month", "year", "passengers")
+ax = sns.heatmap(pt)
+
+# Z = Counts, 2d Histogram
+hist,xedges,yedges = np.histogram2d(y.values,x.values,bins=bins)
+color_bar = axis.imshow(np.log(hist), extent=[xmin,xmax,ymin,ymax], interpolation='nearest', aspect='auto', origin='lower')
+color_bar = plt.imshow(np.log(hist), extent=[xmin,xmax,ymin,ymax], interpolation='nearest', aspect='auto', origin='lower')
+plt.xlabel(x.name)
+plt.ylabel(x.name)
+
+########################  GAUSSIAN MIXTURES MODEL ##########################
+from sklearn.mixture import GMM
+from matplotlib.colors import LogNorm
+ax = plt.hist2d(dfsig[0],dfsig[1], bins=[30,30], cmap='jet', norm=LogNorm())
+
+clf = GMM(4, n_iter=500, random_state=3, n_init=10).fit(signal)                 # Gaussian Mixtures Model for signal
+x = np.linspace(-4,4,100)                                                       
+y = np.linspace(-4,4,100)                                                       
+
+X, Y = np.meshgrid(x, y)                                                        # X = NY x NX rows of x values   xrow, xrow, xrow                                                                                # Y = NY x NX cols of y values   ycol | ycol | ycol                                                                                                                                                                                                                  
+                                                                                    
+XX = np.array([X.ravel(), Y.ravel()]).T                                         # Get list of all possible [Xi,Yj]                                       
+
+# EXAMPLE OF CONFUSING PART       
+# x = [[0,1,2],[0,1,2]]                                                         # mesh grid for x = [0,1,2] and y = [0,1]
+# y = [[0,0,0],[1,1,1]]
+# x.ravel() -> array([0, 1, 2, 0, 1, 2])                                        # row of x meshgrid 
+# y.ravel() -> array([0, 0, 0, 1, 1, 1])                                        # row of y meshgrid, x[i],y[i] i->NY*NX covers all possible x,y
+# np.array([x.ravel(), y.ravel()])                                              
+#     array([[0, 1, 2, 0, 1, 2],
+             [0, 0, 0, 1, 1, 1]])
+
+# np.array([x.ravel(), y.ravel()]).T                                            # clf wants m[i] = [xi,yi] pair not m[:,i] = [xi,yi] pair
+#     array([[0, 0],
+           [1, 0],
+           [2, 0],
+           [0, 1],
+           [1, 1],
+           [2, 1]])
+
+Z = np.exp(clf.score(XX))                                                       # exp^(log probability) = probability
+Z = Z.reshape(X.shape)                  
+plt.contour(X,Y,Z, axes=ax)
+plt.colorbar()
+
+
+
+#### PLOT FEATURE VARIABLES IN CLASSES #################################
+
+hist_params = {'normed': True, 'bins': 60, 'alpha': 0.4}
+# create the figure
+fig = plt.figure(figsize=(16, 25))
+for n, feature in enumerate(features):
+    # add sub plot on our figure
+    ax = fig.add_subplot(features.shape[1] // 5 + 1, 6, n + 1)
+    # define range for histograms by cutting 1% of data from both ends
+    min_value, max_value = numpy.percentile(data[feature], [1, 99])
+    ax.hist(data.ix[data.target.values == 0, feature].values, range=(min_value, max_value), 
+             label='class 0', **hist_params)
+    ax.hist(data.ix[data.target.values == 1, feature].values, range=(min_value, max_value), 
+             label='class 1', **hist_params)
+    ax.legend(loc='best')
+    ax.set_title(feature)
+
+#### FEATURE REDUCTION #################################################
+
+pip install bhtsne
+https://github.com/dominiek/python-bhtsne/blob/master/README.md
+
+from sklearn import datasets
+digits = datasets.load_digits(n_class=6)
+X = digits.data
+y = digits.target
+
+import sys 
+sys.path.insert(0, '../lib')
+import plotting as pl
+
+from bhtsne import tsne                 # doesn't crash due to memory problems
+R = tsne(X)                             # should rescale features to unit norm to get best results
+pl.plot_embedding(R,y)
+
+from sklearn.decomposition import PCA
+pca = PCA(n_components=2)
+Xpca = pca.fit_transform(X)
+pl.plot_embedding(Xpca[:,:2],y)
+
+from sklearn.manifold import TSNE       # crashes due to memory problems
+tsne = TSNE(n_components=2,verbose=2,perplexity=50)
+Xtsne = tsne.fit_transform(X)
+pl.plot_embedding(Xtsne,y)

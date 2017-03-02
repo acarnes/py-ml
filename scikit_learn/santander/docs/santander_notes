@@ -1,0 +1,29 @@
+Santander Notes
+---------------------------
+
+iROC Cross Validation on Training Set for Logistic Regression
+
+Top 15 MI vars                                  : 0.79
+All vars                                        : 0.68
+Top 50 MI vars                                  : 0.81
+Top 15 PCA vars (not normalized, with std_dev=0): 0.62
+Top 50 MI PCA vars (normalized, no std_dev=0)   : 0.80
+
+Now we look at balanced sets
+--------------------------------
+iROC Scores evaluated on whole set using 80% training, 20% test set
+
+Top 50 MI PCA vars (normalized, no std_dev=0, mi whole)   : 0.798   [ made pca with balanced set, evaluated mi on whole set, chose top mi vars from that   ]
+Top 50 MI PCA vars (normalized, no std_dev=0, mi bal)     : 0.792   [ made pca with balanced set, evaluated mi on balanced set, chose top mi vars from that]
+
+Not much difference
+
+Future Plans
+---------------------------------
+* Get average roc score on 20% test set
+* Use the actual test set to test out the goodness of fit
+* Try combination of PCA vars and regular vars
+* Try average vote of balanced sets
+* SHUFFLE SPLIT
+* what is the volatility?
+* Random Forests

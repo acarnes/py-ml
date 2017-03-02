@@ -1,0 +1,2027 @@
+visible units test data
+[[1 1 0 1 0]
+ [1 1 1 0 1]
+ [1 0 0 0 0]
+ ..., 
+ [1 1 1 0 1]
+ [1 1 0 0 0]
+ [1 0 1 0 0]]
+
+w before update
+[[ 0.         -0.28182799  0.01843417]
+ [-0.3892937  -0.4369293  -0.12604629]
+ [ 0.21842474 -0.35884827 -0.10899566]
+ [ 0.36684543  0.34506701  0.17548802]
+ [ 0.00531168 -0.26147998  0.40452079]]
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 1 0 0 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 1 1 0 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 1 1 1 1]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 1 0 0 1]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 1 1 1 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 1 1 0 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 1 1 1 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 1 1 0 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 1 1 1 1]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 1 1 0 1]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 1 0 0 1]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 1 1 0 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 1 0 0 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 1 1 1 1]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 1 1 1 1]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 1 0 0 1]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 1 1 1 1]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 1 0 0 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 1 0 0 1]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 1 0 1]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 1 0 1]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 1 1 0 1]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 1 1 0 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 1 1 0 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 1 1 1 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 0 0 1]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 1 1 1 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 0 1]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 1 0 1]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 0 1]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 0 1 0 1]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 1 1 0 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 1 0 1 1]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 1 1 1 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 0 1]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 1 0 1 1]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 1 0 1 1]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 1 1 0 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 1 0 1]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 0 0 1]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 1 0 0 1]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 0 1]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 1 0 0 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 1 1 1 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 1 0 0 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 1 1 1 1]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 1 0 0 1]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 0 1]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 1 1 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 0 0 1]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 0 1]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 1 0 1]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 1 1 0 1]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 0 1]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 1 0 1 1]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 1 0 1]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 1 1 1 1]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 1 1 1 1]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 1 0 1 1]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 1 0 0 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 1 1 0 1]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 1 0 1]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 1 1 0 1]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 1 1 1 1]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 0 1]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 1 1 1 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 0 0 1]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 1 1 1 1]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 0 0 1]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 1 0 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 1 0 0 1]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 0 0 1]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 1 0 1]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 1 0 1 1]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 1 1 1 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 0 1 1]]
+
+total_accuracy =  0.55
+
+None
+w after update
+[[ 0.         -7.36500666  2.41590291]
+ [-3.3892937   4.0108066   2.32264524]
+ [ 3.01842474  2.20936241 -8.72948589]
+ [-3.23315457  3.39457353  2.90526686]
+ [-3.39468832  7.30580816 -7.22298478]]
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 1 1 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 1 0 0 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 1 1 1 1]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 1 1 0 1]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 1 1 1 1]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 1 1 1 1]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 0 1]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 1 1 0 1]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 1 1 1 1]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 1 0 1]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 1 1 1 1]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 1 0 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 1 0 0 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 1 0 1]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 1 0 0 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 0 1]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 1 0 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 1 0 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 1 1 0 1]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 1 0 0 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 1 0 0 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 1 1 0 1]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 0 1 1]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 0 1 0 1]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 1 1 0 1]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 1 0 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 1 1 0 1]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 0 1 0 1]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 1 0 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 1 1 1 1]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 1 1 0 1]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 1 0 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 1 1 0 1]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 1 0 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 1 0 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 1 1 0 1]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 1 1 1 1]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 1 0 0 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 1 0 1]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 1 0 0 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 1 1 0 1]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 1 1 1 1]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 1 1 1 1]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 0 1 1 0]]
+v_new before loop [[1 0 1 1 0]]
+v      [[1 0 1 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 1 0 0 0]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 1 0 0]]
+v_new before loop [[1 1 1 0 0]]
+v      [[1 1 1 0 0]]
+v_new  [[1 0 1 1 1]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 0 1 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 1 0 1]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 1 1 1 1]]
+
+v before loop     [[1 1 1 1 0]]
+v_new before loop [[1 1 1 1 0]]
+v      [[1 1 1 1 0]]
+v_new  [[1 1 1 0 0]]
+
+v before loop     [[1 0 0 1 0]]
+v_new before loop [[1 0 0 1 0]]
+v      [[1 0 0 1 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 1 0 0]]
+v_new before loop [[1 0 1 0 0]]
+v      [[1 0 1 0 0]]
+v_new  [[1 1 1 0 0]]
+
+v before loop     [[1 1 0 1 0]]
+v_new before loop [[1 1 0 1 0]]
+v      [[1 1 0 1 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 1 0 1 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 0 0 0]]
+
+v before loop     [[1 0 0 0 0]]
+v_new before loop [[1 0 0 0 0]]
+v      [[1 0 0 0 0]]
+v_new  [[1 0 1 0 0]]
+
+v before loop     [[1 1 0 0 0]]
+v_new before loop [[1 1 0 0 0]]
+v      [[1 1 0 0 0]]
+v_new  [[1 0 0 0 0]]
+
+total_accuracy =  0.745
+
+None

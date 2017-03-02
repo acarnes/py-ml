@@ -1,0 +1,25 @@
+as you remove the variables plot the error
+as you add variables plot the error
+feature engineering
+figure out how to improve the poorly predicted events
+    find out which algorithm distinguishes between the mixed up classes the best
+    say classes A and B are mixed up and call the rest class C, make a classifier to distinguish between (A or B) and C
+    then use another method to distinguish between A and B
+
+Optimize the different algorithms with a greedy method
+
+
+------------------------------------------------------------------------
+Skills to be gained
+------------------------------------------------------------------------
+Scrape the internet for information
+Neural Nets
+Feature Engineering
+Optimization 
+Understanding of the strengths and weaknesses of different algorithms
+
+
+---
+This week: Greedy Optimizer (1/18/2015)
+
+
