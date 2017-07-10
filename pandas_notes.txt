@@ -10,7 +10,7 @@ http://seaborn.pydata.org/tutorial/distributions.html
 http://seaborn.pydata.org/tutorial/categorical.html#categorical-tutorial
 
 %save my_useful_session start_line-end_line otheruseful_line
-
+    
 
 ########################  IMPORTS ################################
 import pandas as pd
@@ -24,6 +24,7 @@ import root_numpy                     # Need to get this from somewhere
 ########################  DF BASICS ##############################
 
 df = pd.read_csv('file.csv')          # load csv
+df.shape                              # nrow x ncol
 df = df[df.column > cut]              # apply cut
 s = df["column"]                      # get column as series
 s = df.column                    
